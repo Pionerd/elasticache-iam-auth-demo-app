@@ -22,7 +22,7 @@ public class IAMAuthTokenGeneratorApp {
     private String cacheName;
 
     @Parameter(names = { "--serverless" })
-    private Boolean serverlessEnabled;
+    private Boolean serverlessEnabled = false;
 
     @Parameter(names = {"--region"})
     private String region = "us-east-1";
